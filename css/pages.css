@@ -40,12 +40,12 @@
   text-transform: capitalize;
   padding: 11px 31px;
   background-color: var(--button-color);
+  transition: 0.7s;
 }
 .pages__btn:hover {
- background-color: white;
+ box-shadow: inset 0px 100px rgb(58, 226, 43);
  color: blue;
  border: 2px solid blue;
-
 }
 
 @media (max-width:1070px) {
